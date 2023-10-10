@@ -1,0 +1,56 @@
+header {
+  color: white;
+  height: auto;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  font-family: Montserrat;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+    > p, a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul {
+        margin: 0;
+          > li {
+            font-size: 18px;
+            margin-left: 15px;
+            display: inline;
+              & a {
+                color: white;
+              }
+              & a:hover {
+                font-weight: bold;
+              }
+          }
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      text-shadow: #000 1px 1px;
+    }
+
+    .navcenter {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .theme {
+      border-left: 1px solid #fff;
+      padding-left: 10px;
+      float: right;
+    }
+
+    .nav-hamburger,
+    .nav-hamburger:focus {
+      outline: none;
+      box-shadow: none;
+      border: none;
+    }
+}

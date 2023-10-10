@@ -1,0 +1,11 @@
+*::selection {
+  background-color: #001c47;
+}
+
+*::-moz-selection {
+  background-color: #001c47;
+}
+
+header {
+  background-color: #001c47;
+}
