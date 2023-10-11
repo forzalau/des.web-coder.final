@@ -9,3 +9,21 @@
 header {
   background-color: #ec1c24;
 }
+
+body {
+  color: black;
+  background-color: white;
+}
+
+#portada {
+  background-image: url();
+  background-color: #ec1c2499;
+}
+
+.box-color {
+  background-color: #ec1c24;
+}
+
+.title-bar {
+  color: #ec1c24;
+}

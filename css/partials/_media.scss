@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+  .desktop-nav {
+    display: none!important;
+  }
+
+  .mobile-nav {
+    display: flex;
+  }
+
+  main {
+    margin-top: 63px;
+  }
+
+  li {
+    line-height: 2em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #portada {
+    font-size: 1.2em;
+    height: 130px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .desktop-nav {
+    display: flex;
+  }
+  .mobile-nav {
+    display: none!important;
+  }
+}

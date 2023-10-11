@@ -1,0 +1,43 @@
+#portada {
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #00000075;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 190px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.notice-container {
+  padding-bottom: 15px;
+  display: flex;
+  cursor: pointer;
+
+  .notice-img {
+    height: auto;
+    width: 150px;
+  }
+
+  .notice-body {
+    background-color: #252525;
+    font-size: 1rem;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+
+    & h4 {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.modal-body p {
+  margin-top: 15px;
+}

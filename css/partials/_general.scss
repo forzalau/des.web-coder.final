@@ -1,0 +1,55 @@
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+}
+
+main {
+  margin-top: 53px;
+}
+
+.vcenter {
+  align-items: center;
+  display: flex;
+}
+
+.box {
+  color: white;
+  background-color: #252525;
+  height: auto;
+  width: 100%;
+  padding: 15px;
+}
+
+.box-color {
+  color: white;
+  height: auto;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+.title-container {
+  text-align: left;
+  align-items: center;
+  display: flex;
+  margin-bottom: 15px;
+
+  .title-bar {
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+
+  .title-text {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+}
+
+
+

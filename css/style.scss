@@ -1,39 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
-@import "./partials/reset";
+@import "./partials/index";
 @import "./partials/header";
-
-p, h1 {
-  margin: 0;
-  padding: 0;
-}
-
-.vcenter {
-  align-items: center;
-  display: flex;
-}
-
-/* media queries */
-
-@media (max-width: 1200px) {
-  .desktop-nav {
-    display: none!important;
-  }
-
-  .mobile-nav {
-    display: flex;
-  }
-
-  li {
-    line-height: 2em;
-  }
-}
-
-@media (min-width: 1201px) {
-  .desktop-nav {
-    display: flex;
-  }
-  .mobile-nav {
-    display: none!important;
-  }
-}
-
+@import "./partials/general";
+@import "./partials/media";
+@import "./partials/reset";
