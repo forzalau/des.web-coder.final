@@ -17,27 +17,31 @@
   display: flex;
   cursor: pointer;
 
-  .notice-img {
-    height: auto;
-    width: 150px;
-  }
-
-  .notice-body {
-    background-color: #252525;
-    font-size: 1rem;
-    color: #fff;
-    height: 100%;
-    width: 100%;
-    padding: 15px;
-
-    & h4 {
-      font-size: 1.1rem;
-      font-weight: bold;
-      margin-bottom: 5px;
+    .notice-img {
+      height: auto;
+      width: 150px;
     }
-  }
+
+    .notice-body {
+      background-color: #252525;
+      font-size: 1rem;
+      color: #fff;
+      height: 100%;
+      width: 100%;
+      padding: 15px;
+    }
+
+      & h4 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+}
+
+.btn-close {
+  --bs-btn-close-focus-shadow: none;
 }
 
 .modal-body p {
-  margin-top: 15px;
+  margin-bottom: 15px;
 }

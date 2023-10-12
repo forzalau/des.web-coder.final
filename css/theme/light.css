@@ -8,6 +8,7 @@
 
 header {
   background-color: #ec1c24;
+  box-shadow: 0 1px 6px black;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 }
 
 #portada {
-  background-image: url();
+  background-image: url(../../assets/portada.webp);
   background-color: #ec1c2499;
 }
 
@@ -26,4 +27,9 @@ body {
 
 .title-bar {
   color: #ec1c24;
+}
+
+.modal-content {
+  color: black;
+  background-color: white;
 }

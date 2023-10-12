@@ -30,14 +30,18 @@
   width: 100%;
   padding: 15px;
 }
-.notice-container .notice-body h4 {
+.notice-container h4 {
   font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
+.btn-close {
+  --bs-btn-close-focus-shadow: none;
+}
+
 .modal-body p {
-  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 header {
@@ -124,6 +128,9 @@ main {
   padding: 15px;
   text-align: center;
 }
+.box-color h1 {
+  font-family: Montserrat;
+}
 
 .title-container {
   text-align: left;
@@ -140,6 +147,38 @@ main {
   font-size: 22px;
   font-weight: bold;
   margin-top: 5px;
+}
+
+.redes {
+  margin-top: 15px;
+}
+.redes .facebook {
+  background-color: #3b5998;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.redes .instagram {
+  background-color: #C13584;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.redes .whatsapp {
+  background-color: #25D366;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.redes .email {
+  background-color: grey;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.redes a {
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 1200px) {

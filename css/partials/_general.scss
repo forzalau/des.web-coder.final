@@ -30,6 +30,10 @@ main {
   width: 100%;
   padding: 15px;
   text-align: center;
+
+    & h1 {
+      font-family: Montserrat;
+    }
 }
 
 .title-container {
@@ -49,6 +53,40 @@ main {
     font-weight: bold;
     margin-top: 5px;
   }
+}
+
+.redes {
+  margin-top: 15px;
+
+    .facebook {
+      background-color: #3b5998;
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 5px;
+    }
+    .instagram {
+      background-color: #C13584; 
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 5px;
+    }
+    .whatsapp {
+      background-color: #25D366;
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 5px;
+    }
+    .email {
+      background-color: grey;
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 5px;
+    }
+
+      & a {
+        color: white;
+        text-decoration: none;
+      }
 }
 
 
