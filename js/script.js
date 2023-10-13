@@ -51,13 +51,13 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-/* separar sections de manera individual */
+/* separar secciones y contenidos */
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("pages/sections/head.html")
+  fetch("pages/sections/footer.html")
     .then((response) => response.text())
-    .then((headData) => {
-      document.getElementById("head").innerHTML = headData;
+    .then((footerData) => {
+      document.getElementById("footer").innerHTML = footerData;
     })
     .catch((error) => console.error(error));
 });

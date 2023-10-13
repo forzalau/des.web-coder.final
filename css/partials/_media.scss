@@ -23,6 +23,20 @@
     font-size: 2em;
     height: 130px;
   }
+
+  footer {
+    .footer-center {
+      justify-content: center;
+    }
+    .ms-5 {
+      margin-left: 15px!important;
+    }
+    .copy {
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px solid white;
+    }
+  }
 }
 
 @media (min-width: 1201px) {

@@ -42,14 +42,6 @@
   margin-bottom: 5px;
 }
 
-.btn-close {
-  --bs-btn-close-focus-shadow: none;
-}
-
-.modal-body p {
-  margin-bottom: 15px;
-}
-
 .youtube-video {
   width: 100%;
   height: 254px;
@@ -189,6 +181,14 @@ main {
   text-decoration: none;
 }
 
+.btn-close {
+  --bs-btn-close-focus-shadow: none;
+}
+
+.modal-body p {
+  margin-bottom: 15px;
+}
+
 .form-control:focus {
   border-color: #000;
   box-shadow: 0 0 0 0.1rem #ccc;
@@ -228,6 +228,17 @@ footer p:hover {
   #portada {
     font-size: 2em;
     height: 130px;
+  }
+  footer .footer-center {
+    justify-content: center;
+  }
+  footer .ms-5 {
+    margin-left: 15px !important;
+  }
+  footer .copy {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid white;
   }
 }
 @media (min-width: 1201px) {
