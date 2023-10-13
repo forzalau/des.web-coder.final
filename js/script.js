@@ -1,3 +1,5 @@
+/* light/dark mode */
+
 document.addEventListener("DOMContentLoaded", function () {
   const estiloPredeterminado = document.getElementById("light");
   const estiloAlternativo = document.getElementById("dark");
@@ -47,4 +49,24 @@ document.addEventListener("DOMContentLoaded", function () {
       setCookie("estilo-seleccionado", "dark", 30);
     }
   }
+});
+
+/* separar sections de manera individual */
+
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("pages/sections/head.html")
+    .then((response) => response.text())
+    .then((headData) => {
+      document.getElementById("head").innerHTML = headData;
+    })
+    .catch((error) => console.error(error));
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("pages/content/notice.html")
+    .then((response) => response.text())
+    .then((noticeData) => {
+      document.getElementById("notice").innerHTML = noticeData;
+    })
+    .catch((error) => console.error(error));
 });

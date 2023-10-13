@@ -10,6 +10,19 @@
   align-items: center;
   justify-content: center;
   display: flex;
+  -webkit-animation: glow 3000ms linear infinite;
+  animation: glow 3500ms linear infinite;
+
+  @-webkit-keyframes glow {
+    20% {
+      text-shadow: 0 0 5px whitesmoke;
+    }
+  }
+  @keyframes glow {
+    60% {
+      text-shadow: 0 0 10px whitesmoke;
+    }
+  }
 }
 
 .notice-container {
@@ -44,4 +57,10 @@
 
 .modal-body p {
   margin-bottom: 15px;
+}
+
+.youtube-video {
+  width: 100%;
+  height: 254px;
+  margin-bottom: -10px;
 }

@@ -1,4 +1,4 @@
-p, h1 {
+p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
@@ -58,35 +58,54 @@ main {
 .redes {
   margin-top: 15px;
 
+  .redes-container {
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
     .facebook {
       background-color: #3b5998;
-      padding: 10px 15px;
-      margin: 5px;
-      border-radius: 5px;
+    }
+    .xtwitter {
+      background-color: black;
     }
     .instagram {
-      background-color: #C13584; 
-      padding: 10px 15px;
-      margin: 5px;
-      border-radius: 5px;
+      background-color: #C13584;
     }
     .whatsapp {
       background-color: #25D366;
-      padding: 10px 15px;
-      margin: 5px;
-      border-radius: 5px;
     }
     .email {
       background-color: grey;
-      padding: 10px 15px;
-      margin: 5px;
-      border-radius: 5px;
     }
 
       & a {
         color: white;
         text-decoration: none;
       }
+}
+
+.form-control:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 .1rem #ccc;
+}
+
+footer {
+  color: #fff;
+  font-family: Montserrat;
+  height: auto;
+  width: 100%;
+  padding: 15px;
+
+  & a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  & p:hover {
+    font-weight: bold;
+  }
 }
 
 

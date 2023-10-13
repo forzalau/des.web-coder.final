@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- comienzo del head -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inicio / Socios Rojos</title>
     <!-- estilos de bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -18,18 +18,19 @@
     ></script>
     <!-- estilos light/dark mode -->
     <link
-      id="dark"
-      rel="stylesheet"
-      type="text/css"
-      href="css/theme/dark.css"
-    />
-    <link
       id="light"
       rel="stylesheet"
       type="text/css"
       href="css/theme/light.css"
     />
-    <!-- estilos generales -->
+    <link
+      id="dark"
+      rel="stylesheet"
+      type="text/css"
+      href="css/theme/dark.css"
+      disabled
+    />
+    <title>Inicio / Socios Rojos</title>
     <link id="style" rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="shortcut icon" href="assets/favicon.png" />
   </head>
@@ -109,7 +110,6 @@
         </div>
       </div>
     </header>
-    <!-- comienzo del main -->
     <main>
       <div id="portada">
         <p>¡ASOCIATE HOY MISMO!</p>
@@ -117,113 +117,127 @@
       <div class="box-color">
         <h1>YA SOMOS MÁS DE 135.000 SOCIOS</h1>
       </div>
-      <div class="container">
+      <div class="container mb-3">
         <div class="row">
           <div class="col-lg-7">
+            <!-- comienzo de noticias -->
+            <div id="notice"></div>
+          </div>
+          <div class="col-lg-5 mt-3 order-1">
+            <iframe
+              class="youtube-video rounded-top"
+              src="https://www.youtube.com/embed/hgYm0VGsCkc?si=W4reR7X59ildbQyy&amp;controls=0&amp;start=0"
+              frameborder="0"
+            ></iframe>
+            <div class="box-color">
+              <h5 class="text-center fw-bold">AHORA JUGÁS VOS</h5>
+            </div>
+            <div class="box rounded-bottom">
+              <p class="mb-3">
+                La posibilidad de alcanzar este record histórico va de la mano
+                del absoluto compromiso y total entrega que han demostrado
+                incansablemente los socios, socias, hinchas y simpatizantes para
+                acompañar el proceso de reconstrucción que todos soñamos para
+                nuestro Club, deseando día y noche que Independiente continúe en
+                lo más alto del fútbol mundial.
+              </p>
+              <p>
+                Pero llegar a la meta de los 150 mil socios y socias no solo
+                constituye un objetivo que da cuenta de la magnitud y el tamaño
+                inmenso que tiene nuestro Institución en el país y en el mundo,
+                sino también el punto de equilibrio necesario para que
+                Independiente tenga superávit económico, cumpliendo de esta
+                manera con el doble objetivo de ubicar a Independiente entre las
+                Instituciones con mayor cantidad de socios y socias del mundo y
+                alcanzar, simultáneamente, los ingresos necesarios para
+                garantizar el crecimiento y desarrollo continuo de nuestro Club.
+              </p>
+            </div>
             <div class="title-container mt-3">
               <div class="title-bar">/</div>
-              <div class="title-text">Últimas Noticias</div>
+              <div class="title-text">Newsteller</div>
             </div>
-            <div id="n1">
-              <div
-                class="notice-container"
-                data-bs-toggle="modal"
-                data-bs-target="#notice1"
-              >
-                <img class="notice-img" src="../assets/news/n1.webp" />
-                <div class="notice-body rounded-end">
-                  <h4>Peña Villa Elisa cumple 10 años!</h4>
-                  <p>
-                    Recibimos esta mañana a la peña que hoy cumple 10 años y
-                    además suma 23 nuevos socios!
-                  </p>
-                </div>
+            <div class="box rounded">
+              <div class="d-flex justify-content-center">
+                <input
+                  type="text"
+                  class="form-control me-2"
+                  id="formGroupExampleInput"
+                  placeholder="Introduce tu correo electrónico"
+                />
+                <button type="button" class="btn btn-light">Enviar</button>
               </div>
-              <div
-                class="modal fade"
-                id="notice1"
-                tabindex="-1"
-                aria-labelledby="notice1"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fw-bold fs-5" id="notice1l">
-                        Peña Villa Elisa cumple 10 años!
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="../assets/news/n1.webp" />
-                      <p>
-                        Esta década ha sido un viaje emocionante, lleno de
-                        momentos memorables y crecimiento constante. En estos 10
-                        años, hemos construido una comunidad sólida y
-                        comprometida.
-                      </p>
-                      <p>
-                        Los 23 nuevos socios son un testimonio del atractivo y
-                        la fortaleza de nuestra peña. Cada nuevo miembro trae su
-                        pasión y energía a nuestro grupo, enriqueciendo la
-                        experiencia para todos. Estamos emocionados de darles la
-                        bienvenida a nuestra familia y esperamos construir
-                        recuerdos inolvidables juntos.
-                      </p>
-                      <p>
-                        A lo largo de esta década, hemos compartido alegrías,
-                        desafíos y triunfos. Hemos celebrado juntos cada
-                        victoria de nuestro equipo favorito, y hemos brindado
-                        apoyo en momentos difíciles. Esta unión es lo que hace
-                        que nuestra peña sea especial y sólida.
-                      </p>
-                      <p>
-                        Mirando hacia el futuro, esperamos otros 10 años (y
-                        muchos más) de pasión compartida y amistad duradera.
-                        Nuestro compromiso con nuestro equipo y nuestra
-                        comunidad sigue siendo inquebrantable. Gracias a todos
-                        los miembros, antiguos y nuevos, por ser parte de esta
-                        historia de éxito. ¡Aquí está a una década increíble y a
-                        un futuro aún más brillante!
-                      </p>
-                      <div class="modal-footer">
-                        <div class="redes vcenter">
-                          <p class="fw-bold me-3">Compartir en:</p>
-                          <a href="#" class="facebook"
-                            ><i class="fa-brands fa-facebook"></i
-                          ></a>
-                          <a href="#" class="instagram">
-                            <i class="fa-brands fa-instagram"></i>
-                          </a>
-                          <a href="#" class="whatsapp"
-                            ><i class="fa-brands fa-whatsapp"></i
-                          ></a>
-                          <a href="#" class="email"
-                            ><i class="fa-regular fa-envelope"></i
-                          ></a>
-                          <a href="#" class="email"
-                            ><i
-                              class="fa-solid fa-arrow-up-right-from-square"
-                            ></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div class="mt-2">
+                *Recibí todas las noticias y novedades al instante.
               </div>
             </div>
           </div>
-          <div class="col-lg-5 order-1"></div>
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 d-flex">
+            <div>
+              <a href="#">
+                <p>Privacidad de Datos</p>
+              </a>
+              <a href="#">
+                <p>Política de Cookies</p>
+              </a>
+              <a href="#">
+                <p>Términos y Condiciones</p>
+              </a>
+            </div>
+            <div class="ms-5">
+              <a href="#">
+                <p>Ayuda</p>
+              </a>
+              <a href="pages/contacto.html">
+                <p>Contacto</p>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 order-1 d-flex flex-column justify-content-center align-items-center"
+          >
+            <div class="d-flex my-3">
+              <a href="index.html" class="fw-bold me-1">SOCIOSROJOS</a>
+              <div>&copy; 2023</div>
+            </div>
+
+            <div>
+              <a href="https://www.facebook.com/Independiente" target="_blank">
+                <i class="fa-brands fa-facebook fa-lg me-3"></i>
+              </a>
+              <a href="https://twitter.com/Independiente" target="_blank">
+                <i class="fa-brands fa-x-twitter fa-lg me-3"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/caindependiente/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram fa-lg me-3"></i>
+              </a>
+              <a href="https://www.tiktok.com/@independiente" target="_blank">
+                <i class="fa-brands fa-tiktok fa-lg me-3"></i>
+              </a>
+              <a href="https://www.youtube.com/@Independiente" target="_blank">
+                <i class="fa-brands fa-youtube fa-lg me-3"></i>
+              </a>
+              <a href="https://www.twitch.tv/caindependiente" target="_blank">
+                <i class="fa-brands fa-twitch fa-lg me-3"></i>
+              </a>
+              <a href="https://clubaindependiente.com.ar/" target="_blank">
+                <i class="fa-solid fa-link fa-lg"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="js/script.js"></script>
     <script
       src="https://kit.fontawesome.com/9ba83664e2.js"
