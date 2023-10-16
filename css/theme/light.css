@@ -42,6 +42,18 @@ body {
   background-color: #ec1c24;
 }
 
+.a-body {
+  background-color: #ccc;
+}
+
+.a-box {
+  background-color: #ec1c24;
+}
+
+.progress-bar {
+  background-color: #ec1c24;
+}
+
 footer {
   background-color: #ec1c24;
 }
