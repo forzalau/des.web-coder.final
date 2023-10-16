@@ -230,6 +230,16 @@ main {
   color: white;
 }
 
+#subir {
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 footer {
   color: #fff;
   font-family: Montserrat;
@@ -267,6 +277,10 @@ footer p:hover {
   }
   .redes .redes-container {
     padding: 5px 10px;
+  }
+  #subir {
+    bottom: 5px;
+    right: 10px;
   }
   footer .footer-center {
     justify-content: center;

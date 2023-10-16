@@ -63,6 +63,14 @@ function mostrarMensaje() {
 
 /* ir arriba */
 
+function subir() {
+  document.getElementById("subir").addEventListener("click", function () {
+    window.scrollTo(0, 0);
+  });
+}
+
+document.addEventListener("DOMContentLoaded", subir);
+
 /* separar secciones y contenidos */
 
 document.addEventListener("DOMContentLoaded", function () {
