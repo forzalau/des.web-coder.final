@@ -39,7 +39,7 @@
       <div class="container">
         <div class="row vcenter">
           <div class="col-4">
-            <a href="#">
+            <a href="index.html">
               <p class="logo">SOCIOSROJOS</p>
             </a>
           </div>
@@ -139,7 +139,7 @@
                 nuestro Club, deseando día y noche que Independiente continúe en
                 lo más alto del fútbol mundial.
               </p>
-              <p>
+              <p class="mb-3">
                 Pero llegar a la meta de los 150 mil socios y socias no solo
                 constituye un objetivo que da cuenta de la magnitud y el tamaño
                 inmenso que tiene nuestro Institución en el país y en el mundo,
@@ -150,6 +150,11 @@
                 alcanzar, simultáneamente, los ingresos necesarios para
                 garantizar el crecimiento y desarrollo continuo de nuestro Club.
               </p>
+              <a href="#">
+                <div class="box-gold fw-bold text-center rounded">
+                  ASOCIATE ONLINE ACÁ
+                </div>
+              </a>
             </div>
             <div class="title-container mt-3">
               <div class="title-bar">/</div>
@@ -162,8 +167,15 @@
                   class="form-control me-2"
                   id="formGroupExampleInput"
                   placeholder="Introduce tu correo electrónico"
+                  required
                 />
-                <button type="button" class="btn btn-light">Enviar</button>
+                <button
+                  type="button"
+                  onclick="mostrarMensaje()"
+                  class="btn btn-light"
+                >
+                  Enviar
+                </button>
               </div>
               <div class="mt-2">
                 *Recibí todas las noticias y novedades al instante.

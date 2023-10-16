@@ -51,10 +51,22 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+/* mensaje alerta flotante */
+
+function mostrarAlerta() {
+  alert("URL copiado en el portapapeles.");
+}
+
+function mostrarMensaje() {
+  alert("Realizado con éxito.");
+}
+
+/* ir arriba */
+
 /* separar secciones y contenidos */
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("pages/sections/footer.html")
+  fetch("../../pages/sections/footer.html")
     .then((response) => response.text())
     .then((footerData) => {
       document.getElementById("footer").innerHTML = footerData;
