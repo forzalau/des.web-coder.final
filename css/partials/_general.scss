@@ -150,6 +150,10 @@ main {
   cursor: pointer;
 }
 
+.denied {
+  cursor: not-allowed;
+}
+
 footer {
   color: #fff;
   font-family: Montserrat;
