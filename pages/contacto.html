@@ -30,6 +30,11 @@
       disabled
     />
     <title>Contacto / Socios Rojos</title>
+    <meta name="description" content="Contactá con nosotros." />
+    <meta
+      name="keywords"
+      content="club, independiente, contacto, cai, rojo, avellaneda"
+    />
     <link
       id="style"
       rel="stylesheet"
@@ -65,7 +70,7 @@
                   <a href="../pages/tienda.html">TIENDA</a>
                 </li>
                 <li>
-                  <a href="../pages/contacto.html">CONTACTO</a>
+                  <a href="../pages/contacto.html" class="fw-bold">CONTACTO</a>
                 </li>
                 <li id="mode" class="theme">
                   <i
@@ -104,11 +109,13 @@
         <div class="collapse" id="shownav">
           <nav class="d-flex justify-content-end">
             <ul class="d-flex flex-column">
-              <li><a href="../../index.html">INICIO</a></li>
-              <li><a href="../beneficios.html">BENEFICIOS</a></li>
-              <li><a href="../asociate.html">ASOCIATE</a></li>
-              <li><a href="../tienda.html">TIENDA</a></li>
-              <li><a href="../contacto.html">CONTACTO</a></li>
+              <li><a href="../index.html">INICIO</a></li>
+              <li><a href="../pages/beneficios.html">BENEFICIOS</a></li>
+              <li><a href="../pages/asociate.html">ASOCIATE</a></li>
+              <li><a href="../pages/tienda.html">TIENDA</a></li>
+              <li>
+                <a href="../pages/contacto.html" class="fw-bold">CONTACTO</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -126,10 +133,11 @@
               <div class="title-text">Formulario de Contacto</div>
             </div>
             <div id="form"></div>
-            <div class="title-container">
+            <div id="faqs" class="title-container mb-3">
               <div class="title-bar">/</div>
               <div class="title-text">Preguntas Frecuentes</div>
             </div>
+            <div id="freq"></div>
           </div>
           <div class="col-lg-4 order-1">
             <div class="title-container">
@@ -198,16 +206,7 @@
     </main>
     <div id="footer"></div>
     <script src="../../js/script.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        fetch("content/form.html")
-          .then((response) => response.text())
-          .then((formData) => {
-            document.getElementById("form").innerHTML = formData;
-          })
-          .catch((error) => console.error(error));
-      });
-    </script>
+    <script src="../js/contacto.js"></script>
     <script
       src="https://kit.fontawesome.com/9ba83664e2.js"
       crossorigin="anonymous"
