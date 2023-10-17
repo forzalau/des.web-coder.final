@@ -60,14 +60,3 @@ function mostrarAlerta() {
 function mostrarMensaje() {
   alert("Realizado con éxito.");
 }
-
-/* footer */
-
-document.addEventListener("DOMContentLoaded", function () {
-  fetch("../../pages/sections/footer.html")
-    .then((response) => response.text())
-    .then((footerData) => {
-      document.getElementById("footer").innerHTML = footerData;
-    })
-    .catch((error) => console.error(error));
-});
