@@ -1,3 +1,5 @@
+/* mouse selection */
+
 *::selection {
   background-color: #ec1c24;
 }
@@ -6,59 +8,38 @@
   background-color: #ec1c24;
 }
 
-header {
+/* style general */
+
+header,
+#portada,
+.box-color,
+.share,
+#subir,
+.a-box,
+.progress-bar,
+footer {
   background-color: #ec1c24;
+}
+
+header {
   box-shadow: 0 1px 6px black;
 }
 
-body {
+body,
+.modal-content,
+.card {
   color: black;
   background-color: white;
 }
 
 #portada {
-  background-image: url(../../assets/portada.webp);
-  background-color: #ec1c2499;
-}
-
-.box-color {
-  background-color: #ec1c24;
+  background-image: url(../../assets/mode/portada.webp);
 }
 
 .title-bar {
   color: #ec1c24;
 }
 
-.modal-content {
-  color: black;
-  background-color: white;
-}
-
-.share {
-  background-color: #ec1c24;
-}
-
-#subir {
-  background-color: #ec1c24;
-}
-
 .a-body {
   background-color: #ccc;
-}
-
-.a-box {
-  background-color: #ec1c24;
-}
-
-.progress-bar {
-  background-color: #ec1c24;
-}
-
-.card {
-  color: black;
-  background-color: white;
-}
-
-footer {
-  background-color: #ec1c24;
 }

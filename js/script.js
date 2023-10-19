@@ -50,13 +50,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
-
-/* mensaje alerta flotante */
-
-function mostrarAlerta() {
-  alert("URL copiado en el portapapeles.");
-}
-
-function mostrarMensaje() {
-  alert("Realizado con éxito.");
-}

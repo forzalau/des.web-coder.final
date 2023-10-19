@@ -1,3 +1,5 @@
+/* mouse selection */
+
 *::selection {
   background-color: #001c47;
 }
@@ -6,8 +8,20 @@
   background-color: #001c47;
 }
 
-header {
+/* style general */
+
+header,
+#portada,
+.box-color,
+.share,
+#subir,
+.a-box,
+.progress-bar,
+footer {
   background-color: #001c47;
+}
+
+header {
   box-shadow: 0 1px 6px white;
 }
 
@@ -17,49 +31,20 @@ body {
 }
 
 #portada {
-  background-image: url(../../assets/portadadm.webp);
-  background-color: #001c4799;
-}
-
-.box-color {
-  background-color: #001c47;
+  background-image: url(../../assets/mode/portadadm.webp);
 }
 
 .title-bar {
   color: #001c47;
 }
 
-.modal-content {
-  color: white;
-  background-color: #252525;
-}
-
-.share {
-  background-color: #001c47;
-}
-
-#subir {
-  background-color: #001c47;
-}
-
-.a-body {
-  background-color: #ccc;
-  color: #000;
-}
-
-.a-box {
-  background-color: #001c47;
-}
-
-.progress-bar {
-  background-color: #001c47;
-}
-
+.modal-content,
 .card {
   color: white;
   background-color: #252525;
 }
 
-footer {
-  background-color: #001c47;
+.a-body {
+  background-color: #ccc;
+  color: #000;
 }

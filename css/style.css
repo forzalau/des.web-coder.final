@@ -42,6 +42,37 @@
   margin-bottom: 5px;
 }
 
+.redes {
+  margin-top: 15px;
+}
+.redes .redes-container {
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.redes .facebook {
+  background-color: #3b5998;
+}
+.redes .xtwitter {
+  background-color: black;
+}
+.redes .instagram {
+  background-color: #C13584;
+}
+.redes .whatsapp {
+  background-color: #25D366;
+}
+.redes .email {
+  background-color: grey;
+}
+.redes .share {
+  cursor: pointer;
+}
+.redes a {
+  color: white;
+  text-decoration: none;
+}
+
 .youtube-video {
   width: 100%;
   height: 254px;
@@ -119,7 +150,7 @@
   }
 }
 
-/* style page tienda*/
+/* style page tienda */
 .t-body {
   background-color: #ccc;
   height: auto;
@@ -131,6 +162,17 @@
   width: 150px;
   display: block;
   margin: auto;
+}
+
+/* style page legales */
+#subir {
+  color: white;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 header {
@@ -255,37 +297,6 @@ main {
   margin-top: 5px;
 }
 
-.redes {
-  margin-top: 15px;
-}
-.redes .redes-container {
-  padding: 10px 15px;
-  margin: 5px;
-  border-radius: 5px;
-}
-.redes .facebook {
-  background-color: #3b5998;
-}
-.redes .xtwitter {
-  background-color: black;
-}
-.redes .instagram {
-  background-color: #C13584;
-}
-.redes .whatsapp {
-  background-color: #25D366;
-}
-.redes .email {
-  background-color: grey;
-}
-.redes .share {
-  cursor: pointer;
-}
-.redes a {
-  color: white;
-  text-decoration: none;
-}
-
 .btn-close {
   --bs-btn-close-focus-shadow: none;
 }
@@ -315,18 +326,8 @@ main {
   color: white;
 }
 
-#subir {
-  color: white;
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  padding: 5px 10px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
 .denied {
-  cursor: not-allowed;
+  cursor: not-allowed !important;
 }
 
 footer {

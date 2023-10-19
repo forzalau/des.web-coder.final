@@ -80,7 +80,7 @@
   }
 }
 
-/* style page tienda*/
+/* style page tienda */
 
 .t-body {
   background-color: #ccc;
@@ -94,6 +94,18 @@
     display: block;
     margin: auto;
   }
+}
+
+/* style page legales */
+
+#subir {
+  color: white;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 
