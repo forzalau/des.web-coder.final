@@ -8,7 +8,7 @@ a {
 }
 
 body {
-  font-family: Roboto;
+  font-family: $primary-font;
 }
 
 main {
@@ -24,19 +24,19 @@ main {
   color: white;
   background-color: #252525;
   height: auto;
-  width: 100%;
-  padding: 15px;
+  width: $full-width;
+  padding: $fifteen;
 }
 
 .box-color {
   color: white;
   height: auto;
-  width: 100%;
-  padding: 15px;
+  width: $full-width;
+  padding: $fifteen;
   text-align: center;
 
     & h1 {
-      font-family: Montserrat;
+      font-family: $second-font;
     }
 }
 
@@ -44,8 +44,8 @@ main {
   color: white;
   background-color: gold;
   height: auto;
-  width: 100%;
-  padding: 15px;
+  width: $full-width;
+  padding: $fifteen;
   box-shadow: 0 0 10px goldenrod;
 
     &:hover {
@@ -58,17 +58,17 @@ main {
   text-align: left;
   align-items: center;
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: $fifteen;
 
   .title-bar {
     font-size: 28px;
-    font-weight: bold;
-    margin-right: 15px;
+    font-weight: $bold;
+    margin-right: $fifteen;
   }
 
   .title-text {
     font-size: 22px;
-    font-weight: bold;
+    font-weight: $bold;
     margin-top: 5px;
   }
 }
@@ -78,11 +78,11 @@ main {
 }
 
 .modal-body p {
-  margin-bottom: 15px;
+  margin-bottom: $fifteen;
 }
 
 .form-control:focus {
-  border-color: #000;
+  border-color: black;
   box-shadow: 0 0 0 .1rem #ccc;
 }
 
@@ -111,19 +111,19 @@ main {
 }
 
 footer {
-  color: #fff;
-  font-family: Montserrat;
+  color: white;
+  font-family: $second-font;
   height: auto;
-  width: 100%;
-  padding: 15px;
+  width: $full-width;
+  padding: $fifteen;
 
   & a {
-    color: #fff;
+    color: white;
     text-decoration: none;
   }
 
   & p:hover {
-    font-weight: bold;
+    font-weight: $bold;
   }
 }
 

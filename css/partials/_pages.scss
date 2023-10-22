@@ -2,7 +2,7 @@
 
 .b-body {
   height: auto;
-  width: 100%;
+  width: $full-width;
   margin-bottom: 24px;
 
   .b-img {
@@ -14,11 +14,11 @@
   
   .b-text {
     background-color: #ccc;
-    color: #000;
+    color: black;
     font-size: 14px;
     padding: 15px;
     height: 100px;
-    margin-top: 15px;
+    margin-top: $fifteen;
     text-align: center;
   }
 }
@@ -27,13 +27,13 @@
 
 .a-body {
   height: auto;
-  width: 100%;
-  padding: 15px;
+  width: $full-width;
+  padding: $fifteen;
 
   & p {
     margin-bottom: 5px;
     line-height: 3em;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid black;
   }
 
   .p-bottom {
@@ -47,7 +47,7 @@
 
 .box {
   .a-box {
-    color: #fff;
+    color: white;
     padding: 5px 10px;
     margin: 5px 10px;
   }
@@ -55,13 +55,13 @@
     margin-left: 30px;
   }
   .a-ico {
-    margin-right: 15px;
+    margin-right: $fifteen;
   }
 }
 
 .progress-container {
-  width: 100%;
-  background-color: #fff;
+  width: $full-width;
+  background-color: white;
 
   .progress-bar {
     width: 0;
@@ -85,8 +85,8 @@
 .t-body {
   background-color: #ccc;
   height: auto;
-  width: 100%;
-  padding: 15px;
+  width: $full-width;
+  padding: $fifteen;
 
   .t-img {
     height: 150px;
