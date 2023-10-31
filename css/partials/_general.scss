@@ -62,13 +62,13 @@ main {
 
   .title-bar {
     font-size: 28px;
-    font-weight: $bold;
+    font-weight: bold;
     margin-right: $fifteen;
   }
 
   .title-text {
     font-size: 22px;
-    font-weight: $bold;
+    font-weight: bold;
     margin-top: 5px;
   }
 }
@@ -106,6 +106,14 @@ main {
   }
 }
 
+.btn-color {
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
 .denied {
   cursor: not-allowed!important;
 }
@@ -123,7 +131,7 @@ footer {
   }
 
   & p:hover {
-    font-weight: $bold;
+    font-weight: bold;
   }
 }
 

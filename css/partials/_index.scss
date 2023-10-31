@@ -1,7 +1,7 @@
 #portada {
   color: white;
   font-size: 4em;
-  font-weight: $bold;
+  font-weight: bold;
   text-shadow: 1px 1px 3px black;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -42,11 +42,12 @@
       height: 100%;
       width: $full-width;
       padding: $fifteen;
+      border-radius: 0 5px 5px 0;
     }
 
       & h4 {
         font-size: 1.1rem;
-        font-weight: $bold;
+        font-weight: bold;
         margin-bottom: 5px;
     }
 }

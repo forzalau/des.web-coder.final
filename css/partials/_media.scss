@@ -24,6 +24,18 @@
     height: 130px;
   }
 
+  .notice-container {
+    flex-direction: column;
+
+    .notice-body {
+      border-radius: 0 0 5px 5px;
+    }
+    .notice-img {
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+    }
+  } 
+
   .redes {
     .redes-container {
       padding: 5px 10px;
@@ -33,6 +45,10 @@
   #subir {
     bottom: 5px;
     right: 5px;
+  }
+
+  .m-center {
+    text-align: center;
   }
 
   footer {
@@ -57,4 +73,4 @@
   .mobile-nav {
     display: none!important;
   }
-}
+} 
